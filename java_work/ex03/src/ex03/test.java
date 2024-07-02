@@ -10,7 +10,9 @@ public class test {
 	System.out.println(b);
 	System.out.println(b/(double)100);
 	
-		
+	
+	
+			
 		
 	}
 
