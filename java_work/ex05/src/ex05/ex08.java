@@ -12,7 +12,7 @@ public class ex08 {
 		for (; i < 5; i = i + 2) {
 			System.out.println("I LOVE JAVA " + i);
 
-			break;}
+		}
 		
 		
 		System.out.println(i);
