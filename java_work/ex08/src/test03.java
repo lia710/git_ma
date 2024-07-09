@@ -13,23 +13,23 @@ public class test03 {
 
         int b=1;
         int c=1;
-        for (int a = 0; a < 4; a++) {
-            for (int b = 0; b < 3; b++) {
-                for (int c = 0; c < 5; c++) {
-                    if (5a+7b == 19) {
-                        System.out.println("크림빵="+a);
-                        System.out.println("새우깡="+b);
-
-                    }else if (5a+4c == 19) {
-                        System.out.println("크림빵="+a);
-                        System.out.println("콜라="+c);
-                    }else if(7b+4c == 19){
-                        System.out.println("새우깡="+b);
-                        System.out.println("콜라="+c);
-                    }
-                }
-            }
-        }
+//        for (int a = 0; a < 4; a++) {
+//            for (int b = 0; b < 3; b++) {
+//                for (int c = 0; c < 5; c++) {
+//                    if (5a+7b == 19) {
+//                        System.out.println("크림빵="+a);
+//                        System.out.println("새우깡="+b);
+//
+//                    }else if (5a+4c == 19) {
+//                        System.out.println("크림빵="+a);
+//                        System.out.println("콜라="+c);
+//                    }else if(7b+4c == 19){
+//                        System.out.println("새우깡="+b);
+//                        System.out.println("콜라="+c);
+//                    }
+//                }
+//            }
+//        }
 
 
     }
