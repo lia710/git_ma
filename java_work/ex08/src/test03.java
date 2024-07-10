@@ -11,25 +11,22 @@ DVD 한 편을 빌리면 3,500원이 남는다.
 public class test03 {
     public static void main(String[] args) {
 
-        int b=1;
-        int c=1;
-//        for (int a = 0; a < 4; a++) {
-//            for (int b = 0; b < 3; b++) {
-//                for (int c = 0; c < 5; c++) {
-//                    if (5a+7b == 19) {
-//                        System.out.println("크림빵="+a);
-//                        System.out.println("새우깡="+b);
-//
-//                    }else if (5a+4c == 19) {
-//                        System.out.println("크림빵="+a);
-//                        System.out.println("콜라="+c);
-//                    }else if(7b+4c == 19){
-//                        System.out.println("새우깡="+b);
+        for (int a = 1; a < 7; a++) {
+            for (int b = 1; b < 5; b++) {
+                for (int c = 1; c < 8; c++) {
+                    if (5*a+7*b+4*c == 35) {
+                        System.out.print("크림빵="+a);
+                        System.out.print("새우깡="+b);
+                        System.out.println("콜라="+c);
+                    }
+//                    if (5*a+7*b+4*c == 19) {
+//                        System.out.print("크림빵="+a);
+//                        System.out.print("새우깡="+b);
 //                        System.out.println("콜라="+c);
 //                    }
-//                }
-//            }
-//        }
+                }
+            }
+        }
 
 
     }

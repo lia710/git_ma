@@ -1,0 +1,21 @@
+package ex06;
+
+import java.util.Scanner;
+
+public class ex01 {
+public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in);
+	int year = sc.nextInt();
+	
+	String age_type = sc.next();
+	int answer = 0;
+
+	System.out.println("age_type=" + age-type);
+	System.out.println("answer=" + answer);
+	System.out.println("year="+year);
+}
+}
+
+	
+	

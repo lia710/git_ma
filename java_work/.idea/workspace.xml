@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af230fa3-7432-4ed4-82ed-5292d373ac4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex08/src/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex08/src/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/ex09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/Bank/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/Bank/BankAccountMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/aa/bb/fact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex09/src/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/src/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex08/src/test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/src/test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex08/src/test03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2iwXVrAO1how6RHUyXCrHf4ID0w" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/work/java_work",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

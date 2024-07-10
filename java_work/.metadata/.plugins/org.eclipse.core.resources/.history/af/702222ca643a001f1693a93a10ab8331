@@ -1,0 +1,21 @@
+package ex06;
+
+import java.util.Iterator;
+
+//3. 1+(-2)+3+(-4)+...과 같은 식으로 계속 더해나갔을때, 몇까지 더해야 총합이 100이상이 되는지 구하시오
+public class test03 {
+	public static void main(String[] args) {
+		int i = 1;
+		int j = -2;
+		for (; i < 200; i += 2) {
+			int sum1 = 0;
+			sum1 = sum1 + i;
+			for (; j >= -200; j -= 2) {
+				int sum2 = 0;
+				sum2 = sum2 + j;
+				System.out.println(sum1 + sum2);
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,17 @@
+package ex06;
+
+public class Ex05 {
+
+	public static void aa() {
+	System.out.println("aa");
+}
+	public static void bb() {
+	System.out.println("bb");
+}
+	public static void main(String[] args) {
+	System.out.println("프로그램 시작");
+		aa();
+	bb();
+	System.out.println("프로그램 끝");
+}
+}

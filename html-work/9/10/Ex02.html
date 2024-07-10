@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .out-div{
+        position: relative;/* <- 없으면 body태그 기준으로 배치/ 적용하면 out-div 안에서 배치 
+        기준(틀)설정*/
+        height: 200px;
+      }
+      .in-div{
+        position: absolute;/* <- in-div 안에 배치/ 기준안에서 어떻게 놀지?*/
+        width: 100px;
+        height: 100px;
+      }
+      .blue{
+        background-color: blue;
+      }
+      .yellow{
+        background-color: yellow;
+        right: 0;
+      }
+      .green{
+        background-color: green;
+      }
+      .red{
+        background-color: red;
+        bottom: 50px;
+        right: 100px;
+   
+      }
+    </style>
+  </head>
+  <body>
+    <div class="out-div green">
+      <div class="in-div blue">
+        <h1>AA</h1>
+      </div>
+      <div class="in-div yellow">
+        <h1>BB</h1>
+      </div>
+      <div class="in-div red">
+        <h1>CC</h1>
+      </div>
+    </div>
+  </body>
+</html>

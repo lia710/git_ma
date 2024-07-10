@@ -1,0 +1,15 @@
+package ex03;
+
+public class test {
+	public static void main(String[] args) {
+	
+		double a = 10.987;
+				
+		System.out.println(a);
+		a -= 0.007;
+				
+		
+		
+	}
+
+}

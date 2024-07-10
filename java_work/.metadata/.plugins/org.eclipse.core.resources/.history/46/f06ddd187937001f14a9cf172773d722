@@ -1,0 +1,13 @@
+package ex03;
+
+public class test {
+	public static void main(String[] args) {
+	
+		long num1 = 10.987;
+		long num2 = (long) num1;
+		
+		System.out.println(num1);
+		
+	}
+
+}

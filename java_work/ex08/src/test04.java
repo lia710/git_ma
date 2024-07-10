@@ -8,16 +8,18 @@ public class test04 {
         Scanner scan2 = new Scanner(System.in);
         int num2 = scan2.nextInt();
         int sum = 1;
+        int num3 = 2;
 
-        for (int num3 = 2; num3 <= num1 * num2; num3++) {
-            sum = num3 * sum;
-            if (num1 % num3 == 0 && num2 % num3 == 0) {
-                System.out.println(num3);
-                System.out.println("sum="+sum);
-            } else {
-                num3 = num1 * num2;
-                System.out.println(num3);
-            }
+        sum = num3 * sum;
+        if (num1 % num3 == 0 && num2 % num3 == 0) {
+            System.out.println(num3);
+            System.out.println("sum=" + sum);
+        } else if (num1 % num3 > 0 && num2 % num3 > 0) {
+            num3 = 1;
+            System.out.println(num3);
+        }
+        {
+
         }
 
 
