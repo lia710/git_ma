@@ -14,35 +14,35 @@ public class test00 {
             nums[i] = scan.nextInt();
             System.out.println(nums[i]);
 
-            holl(nums);
-            JJack(nums);
+//            holl(nums);
+//            JJack(nums);
         }
     }
-
-    public static void holl(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = scan.nextInt();
-            System.out.println(nums[i]);
-            if (nums[i] % 2 !== 0) {
-                System.out.println("홀수=" + nums[i]);
-            } else {
+//
+//    public static void holl(int[] nums) {
+//        for (int i = 0; i < nums.length; i++) {
+//            nums[i] = scan.nextInt();
+//            System.out.println(nums[i]);
+//            if (nums[i] % 2 !== 0) {
+//                System.out.println("홀수=" + nums[i]);
+//            } else {
+//
+//            }
+//        }
+//    }
+//
+//    public static void JJack(int[] nums) {
+//        for (int i = 0; i < nums.length; i++) {
+//            nums[i] = scan.nextInt();
+//            System.out.println(nums[i]);
+//            if (nums[i] % 2 == 0) {
+//                System.out.println("짝수=" + nums[i]);
+//            } else {
 
             }
-        }
-    }
-
-    public static void JJack(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            nums[i] = scan.nextInt();
-            System.out.println(nums[i]);
-            if (nums[i] % 2 == 0) {
-                System.out.println("짝수=" + nums[i]);
-            } else {
-
-            }
-        }
-    }
-}
+//        }
+//    }
+//}
 
 
 
