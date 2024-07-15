@@ -7,29 +7,25 @@
 
 import java.util.Scanner;
 
-class Two {
-//    public int doA(int A){
-//        int[] nums = new int[11];
-//        for (int i = 1; i < nums.length; i++) {
-//            nums[i] = i;
-//            if (nums[i] % 2 > 0) {
-//                System.out.println("홀수="+nums[i]);
-//            } else if (nums[i] % 2 == 0) { //짝수
-//                System.out.println("짝수="+nums[i]);}
-//
-//    }
+class A {
+    public int input() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("10개의 정수를 입력하시오");
+        int[] nums = new int[10];
+        for (int i = 0; i < nums.length; i++) {
+            int input = scan.nextInt();
+            nums[i] = input;
+            System.out.println(nums[i]);
+        }
+return;
+    }
 }
 
 
 public class test01 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
-        int[] nums = new int[10];
-        for (int i = 0; i < nums.length; i++) {
-            nums[n]=i;
-            System.out.println(nums[n]);
-        }
+
+
     }
 }
 

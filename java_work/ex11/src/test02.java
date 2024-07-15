@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*2.
 길이가 10인 배열을 선언하고 총 10개의 정수를 입력받는다.
  단, 입력받은 숫자가 홀수이면 배열의 앞에서부터 채워나가고,
@@ -6,4 +8,13 @@
  배열에는 [1, 3, 5, 7, 9, 10, 8, 6, 4, 2]의 순으로 저장이 되어야 한다.
 */
 public class test02 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int num[] = new int[10];
+        for (int i = 0; i < num.length; i++) {
+            num[i] = scan.nextInt();
+
+        }
+
+    }
 }

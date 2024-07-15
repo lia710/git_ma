@@ -21,5 +21,5 @@
 
 */
 
-public class Ex07 {
+public class  Ex07 {
 }
