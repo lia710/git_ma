@@ -5,26 +5,21 @@
 배열 내에 존재하는 홀수만 출력하는 함수와 배열 내에 존재하는 짝수만 출력하는 함수를 각각 정의해서
  이 두 함수를 호출하는 방식으로 프로그램을 완성하자.*/
 
+
 import java.util.Scanner;
-
-class A {
-    public int input() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("10개의 정수를 입력하시오");
-        int[] nums = new int[10];
-        for (int i = 0; i < nums.length; i++) {
-            int input = scan.nextInt();
-            nums[i] = input;
-            System.out.println(nums[i]);
-        }
-return;
-    }
-}
-
 
 public class test01 {
     public static void main(String[] args) {
-
+        int[] nums = new int[10];
+        Scanner scan = new Scanner(System.in);
+        System.out.println("10개의 정수를 입력하시오");
+        for (int i = 0; i < nums.length; i++) {
+            int input = scan.nextInt();
+            nums[i] = input;
+        }
+        for (int i = 0; i < nums.length; i++){
+        System.out.println(nums[i]);
+        }
 
     }
 }
