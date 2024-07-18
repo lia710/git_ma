@@ -12,15 +12,19 @@
     매개변수 없음
 */
 class Student {
-    int kor;
-    int eng;
-    int math;
+   private int kor;
+   private int eng;
+   private int math;
    int sum;
 
-    public int getTotal(int kor, int eng, int math) {
-        this.kor = kor;
-        this.eng = eng;
-        this.math = math;
+   public Student(int kor, int eng, int math){
+       this.kor = kor;
+       this.eng = eng;
+       this.math = math;
+   }
+
+    public int getTotal() {
+
         sum = kor + eng + math;
         System.out.println(sum);
         return sum;
@@ -36,8 +40,8 @@ class Student {
 
 public class test01 {
     public static void main(String[] args) {
-        Student a = new Student();
-        a.getTotal(48, 57, 94);
+        Student a = new Student(48, 57, 94);
+        a.getTotal();
         a.getAverage();
     }
 }
