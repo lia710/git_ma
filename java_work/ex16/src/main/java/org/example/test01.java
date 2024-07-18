@@ -6,25 +6,34 @@ public static int maxValue(int[] arr){}
 
 package org.example;
 
-class School{
+class School {
 
-    public School(){}
-    public School(int a,int b,int c,int d){
-        int[] arr = new int[] {a,b,c,d};
-    }
-    public static int minValue(int[] arr){
 
+    public static int minValue(int[] arr) {
+       int min = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (min < arr[i]) {
+                min=arr[i];
+            }
+        }
         return min;
     }
-    public static int maxValue(int[] arr){
 
+    public static int maxValue(int[] arr) {
+
+        for (int e : arr) {
+            System.out.println(e);//전체 배열을 출력하라
+            if(e)
+        }
         return max;
     }
 }
+
 public class test01 {
     public static void main(String[] args) {
-        School sho = new School(12,4,8,9);
+        int arr[]={11,5,8,4,2};
+        School sho = new School();
         sho.minValue();
-        sho.maxValue();
+//        sho.maxValue();
     }
 }

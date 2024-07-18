@@ -9,6 +9,24 @@
 물론 배열의 가로와 세로길이에 상관없이 위와 같이 동작하도록 메소드를 정의해야 한다.
 */
 package org.example;
+int[] a= i[];
+int[] b= j[];
+int[] c= k[];
+int[][] arr={i[],j[],k[]};
+class Arr{
+   public Arr(){
+    }
+    public Arr(){
 
+    }
+public int Change(){
+        int[] a=
+        result=
+        return result;
+}
+}
 public class test03 {
+    int[][] arr= {{1, 2, 3}, {4,5,6}, {7,8,9}};
+
+
 }
