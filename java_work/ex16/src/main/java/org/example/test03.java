@@ -7,36 +7,32 @@
 1   2    3   //2행
 4   5    6   //3행
 물론 배열의 가로와 세로길이에 상관없이 위와 같이 동작하도록 메소드를 정의해야 한다.
- if (i == 0) {
-                    arr[1][j] = arr[i][j];
-                } else if (i == 1) {
-                    arr[2][j] = arr[i][j];
-                } else {
-                    arr[0][j] = new int[]{1, 2, 3};
-                }
 */
 package org.example;
 
 class Arr {
     int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-int[][] krr= new int[][];
+    int[] krr = {1, 2, 3};
+
     public Arr() {
     }
+
     public Arr(int[][] arr) {
         this.arr = arr;
     }
 
     public int Change() {
-
-            for (int j = 0; j < 3; j++) {
-               krr[][]=arr[0][j];
-                System.out.print(arr[i][j] + "\t");
-            }
-            System.out.println();
+        for (int j = 0; j < 3; j++) {
+            arr[1] = arr[0];
+            arr[2] = arr[1];
+            this.krr = arr[0];
+            System.out.print(arr + "\t");
         }
-
+        System.out.println();
         return 0;
     }
+
+
 }
 
 public class test03 {
