@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="190043ed-9e10-4d68-835f-a901d83425f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/Ex01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/Ex02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/Ex03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/aa/BizMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/aa/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/aa/FriendMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/aa/Man.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/aa/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/src [ex16]/main/java/org/example/test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex16/src/main/java/org/example/test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex16/src/main/java/org/example/test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex16/src/main/java/org/example/test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ex16/src/main/java/org/example/test02.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "suidori"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lia710/git_ma.git",
+    "accountId": "1ed221a3-1749-4b4b-856e-66474cf1371d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2jRVuMdfkLkrdA4Xxh7PoDft2eJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/Work/java_work/Intellij/ex17/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="190043ed-9e10-4d68-835f-a901d83425f6" name="Changes" comment="" />
+      <created>1721350097796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721350097796</updated>
+    </task>
+    <servers />
+  </component>
+</project>

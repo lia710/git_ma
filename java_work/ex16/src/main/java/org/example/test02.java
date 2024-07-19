@@ -12,5 +12,36 @@ public static void addTwoDArr(int[][] arr, int add){
 */
 package org.example;
 
-public class test02 {
+class Academi {
+    int[] arr = {24, 94, 51, 10, 67};
+    int add = 11;
+
+    public Academi() {}
+    public static void addOneDArr(int[] arr, int add) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] += add;
+        }
+    }
 }
+
+class Student extends Academi {
+int[][] arr = new int[][]{super.arr};
+    public Student() {}
+    public static void addTwoDArr(int[][] arr, int add) {
+//        super(addOneDArr(for));
+
+    }
+    public void show(){
+//        System.out.println(int[][] arr);
+//    addOneDArr();
+    }
+}
+
+    public class test02 {
+        public static void main(String[] args) {
+            Student stu = new Student();
+
+            stu.show();
+
+        }
+    }

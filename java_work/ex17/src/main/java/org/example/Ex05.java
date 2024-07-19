@@ -3,39 +3,31 @@ public static int minValue(int[] arr){}
 public static int maxValue(int[] arr){}
 
 단 반복문을 사용할때 minValue의 정의에서는 일반적인 for문을 사용하고 maxValue의 정의에서는 새로운 for(enhanced for문)을 사용하기로 하자*/
-
 package org.example;
 
-class School {
-
-public School(){}
+public class Ex05 {
     public static int minValue(int[] arr) {
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min) {
+            if (min > arr[i])
                 min = arr[i];
-            }
         }
-        System.out.println("min = "+min);
         return min;
     }
+
     public static int maxValue(int[] arr) {
         int max = arr[0];
-        for (int e : arr) {
-            if (e > max) {
-                max = e;
-            }
+        for (int temp : arr) {
+            if (max < temp)
+                max = temp;
         }
-        System.out.println("max = "+max);
         return max;
     }
-}
 
-public class test01 {
     public static void main(String[] args) {
-        int arr[] = {11, 45, 8, 24, 2};
-        School sho = new School();
-        sho.minValue(arr);
-        sho.maxValue(arr);
+        int[] arr = {10, 20, 5, 9, 35, 100};
+
+        System.out.println("최솟값 = " + minValue(arr));
+        System.out.println("최댓값 = " + maxValue(arr));
     }
 }
