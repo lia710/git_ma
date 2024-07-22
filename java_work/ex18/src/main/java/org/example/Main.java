@@ -1,3 +1,4 @@
+package org.example;
 /*2. 다음 메소드는 int형 1차원 배열에 저장된 값을 두 번째 매개변수로 전달된 값의 크기만큼 전부 증가시킨다.
 public static void addOneDArr(int[] arr, int add){
     for(int i =0; i<arr.length; i++){
@@ -10,37 +11,30 @@ public static void addTwoDArr(int[][] arr, int add){
     // 이안에 addOneDArr 메소드를 호출한다.
 }
 */
-package org.example;
 
 import java.util.Arrays;
 
-class Academi {
-
-    public Academi() {
-    }
+public class Main {
     public static void addOneDArr(int[] arr, int add) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] += add;
-            System.out.println(arr[i]);
-        }
-    }
-}
-class Student extends Academi {
-    public Student() {
+        }//1차원 배열에서 add만큼 각 배열에 값을 더하라
     }
     public static void addTwoDArr(int[][] arr, int add) {
-        for (int i = 0; i < arr.length; i++) addOneDArr(arr[i]);
+        for (int i = 0; i < arr.length; i++) {
+            addOneDArr(arr[i],add);
+        }//2차원 배열에서 add만큼 각 배열에 값을 더하라
+        //2차원 배열은 1차원 배열을 합친것!
     }
-    public void show() {
-        System.out.println(Arrays.toString(arr[i]));
-    }
-}
-
-public class test02 {
     public static void main(String[] args) {
-        int[] arr = {24, 94, 51, 10, 67};
-        int add = 11;
+        int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
 
+        addTwoDArr(arr,5);
+
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr[0]));
+        System.out.println(Arrays.toString(arr[1]));
+        System.out.println(Arrays.toString(arr[2]));
 
     }
 }

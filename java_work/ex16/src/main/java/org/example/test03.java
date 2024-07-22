@@ -10,35 +10,28 @@
 */
 package org.example;
 
-class Arr {
-    int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    int[] krr = {1, 2, 3};
+import com.sun.security.jgss.GSSUtil;
 
-    public Arr() {
+import java.util.Arrays;
+
+class Arr{
+    int arr[][]={{1,2,3},{4,5,6},{7,8,9}};
+    Arr(){}
+    public void Change(){
+        int krr0[]=arr[0];
+        int krr1[]=arr[1];
+        int krr2[]=arr[2];
+
+        System.out.println(Arrays.toString(krr2)); // 배열 출력하는 문법 Arrays.toString(배열명)
+        System.out.println(Arrays.toString(krr0));
+        System.out.println(Arrays.toString(krr1));
     }
-
-    public Arr(int[][] arr) {
-        this.arr = arr;
-    }
-
-    public int Change() {
-        for (int j = 0; j < 3; j++) {
-            arr[1] = arr[0];
-            arr[2] = arr[1];
-            this.krr = arr[0];
-            System.out.print(arr + "\t");
-        }
-        System.out.println();
-        return 0;
-    }
-
-
 }
+
 
 public class test03 {
     public static void main(String[] args) {
-        Arr arr = new Arr();
-        arr.Change();
-    }
-
+     Arr aa = new Arr();
+     aa.Change();
+}
 }
