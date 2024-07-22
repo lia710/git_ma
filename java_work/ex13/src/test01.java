@@ -27,7 +27,7 @@ public class test01 {
         System.out.println("result=" + result);
         if (1 <= result.length() && result.length() <= 10) {
             for (int i = 0; i < result.length(); i++) {
-                System.out.println(result.charAt(i));
+                System.out.println(result.charAt(i));//문자열을 문자배열로 출력
             }
 
         }else{

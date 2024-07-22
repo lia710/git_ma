@@ -15,9 +15,7 @@ package org.example;
 import java.util.Arrays;
 
 class Academi {
-
-    public Academi() {
-    }
+    public Academi() {}
     public static void addOneDArr(int[] arr, int add) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] += add;
@@ -25,22 +23,26 @@ class Academi {
         }
     }
 }
+
 class Student extends Academi {
-    public Student() {
-    }
+    public Student() {}
     public static void addTwoDArr(int[][] arr, int add) {
-        for (int i = 0; i < arr.length; i++) addOneDArr(arr[i]);
-    }
-    public void show() {
-        System.out.println(Arrays.toString(arr[i]));
+        for (int i = 0; i < arr.length; i++)
+            addOneDArr(arr[i],add);
     }
 }
 
 public class test02 {
     public static void main(String[] args) {
         int[] arr = {24, 94, 51, 10, 67};
+        int[][] krr = {{1,2,3},{4,5,6},{7,8,9}};
         int add = 11;
+        Academi academi = new Academi();
+        academi.addOneDArr(arr, add);
 
+        System.out.println();
+        Student student = new Student();
+        student.addTwoDArr(krr,add);
 
     }
 }

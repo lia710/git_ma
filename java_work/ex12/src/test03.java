@@ -6,22 +6,9 @@ public class test03 {
         Scanner scan = new Scanner(System.in);
         System.out.println("정수를 입력하시오");
         int num1 = scan.nextInt();
-        //for (int i = 0; i < num1; i++) {
-//        if (num1 % 2 != 0 || num1 % 2 != 1) {
-//            System.out.println(num1 % 2);
-//            if (num1 % 2 != 0 || num1 % 2 != 1) {
-//                System.out.println(num1 % 2);
-//                if (num1 % 2 != 0 || num1 % 2 != 1) {
-//                    System.out.println(num1 % 2);
-        int num2 = 1;
-        num2 = num1 / 2;
-        for (int i = 0; i < num2; i++) {
-            if (num2 > 2) {
-                System.out.println(num1);
-                System.out.println(num2 / 2);
-            } else if (num2 < 2) {
-                System.out.println(num2 + num2 % 2);
-            }
+
+        for (int i = 0; i < num1; i++) {
+
         }
 
 

@@ -15,16 +15,15 @@ public class test04 {
         System.out.println("문자열을 입력하시오");
         String[] A = new String[5];
         String a = scan.nextLine();
-        char[] chars= a.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            System.out.println(chars[i]);
-        }
-        Arrays.fill(chars,0,5,chars[i-1]);
-
-
+        char[] chars = a.toCharArray();
+        char[0] =char[4]
+        char[1] =char[3]
+        char[2] =char[2]
+        char[3] =char[1]
+        char[4] =char[0]
     }
 
 
-
-
 }
+
+
