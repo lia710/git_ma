@@ -27,7 +27,9 @@ public class Rectangle {
     }
 
     public boolean contains(Rectangle r) {
-        if (r.x+r.width <=x+width && r.y+r.height<=y+height) {
+        if (r.x + r.width <= x + width && r.y + r.height <= y + height &&
+                r.x >= x && r.y >= y) {//좌표의 시작점도 생각하기
+
             return true;
         }
 
