@@ -1,0 +1,17 @@
+내컴퓨터 접속방법 3가지
+127.0.0.1
+localhost
+ipconfig라는 명령어를 Terminal에 입력해서 ip주소 확인
+192.168.0.29
+
+쌤 2번째 컴퓨터 ip
+192.168.0.242
+
+docker 프로그램
+dockerhub desktop
+
+nginx 이미지를 가지고 mynginx 컨테이너 생성 포트 80:80 detach 실행 os=리눅스
+docker run -d -p 80:80 --name mynginx nginx
+
+현재폴더에 있는 모든 파일 복사
+docker cp . mynginx:usr/share/nginx/html
