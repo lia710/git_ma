@@ -148,10 +148,11 @@ select COUNT(*) '구성원수', sum(SAL),avg(SAL)
 FROM EMP
 where DEPTNO=30;
 
-select DEPTNO, AVG(SAL)
+select DEPTNO
 FROM EMP
-WHERE 
-GROUP BY DEPTNO;
+WHERE AVG(SAL) > ALL ( select AVG(SAL)
+FROM EMP
+group by DEPTNO);
 
 
 select JOB, avg(SAL)
@@ -164,4 +165,54 @@ select COUNT(EMPNO)
 from EMP
 WHERE MGR IN(select EMPNO FROM EMP);
 
+select ENAME, SAL, COMM, SAL+COMM '총액'
+FROM EMP
+WHERE COMM IS NOT NULL
+order by SAL+COMM DESC;
+
+--부서별로 같은 업무를 하는 사람의 인원수를 구하여 부서번호, 업무이름, 인원수를 출력하세요.
+select JOB,COUNT(*)
+FROM EMP
+group by JOB;
+
+select DT.DEPTNO , E.JOB, COUNT(JOB)
+FROM  (select DEPTNO FROM DEPT D WHERE D.DEPTNO=E.DEPTNO)DT, EMP E
+GROUP BY JOB;
+
+select D.DEPTNO
+FROM EMP E, DEPT D
+WHERE E.DEPTNO = D.DEPTNO AND
+EMPNO NOT IN (SELECT EMPNO FROM EMP WHERE E.DEPTNO);
+
+
+SELECT JOB,COUNT(*)>=4 '인원수'
+FROM EMP
+GROUP BY JOB;
+
+select JOB,count(*)
+FROM EMP
+WHERE COUNT(*)=(SELECT COUNT(*) >=4 FROM EMP group by JOB)
+group by JOB;
+
+select ENAME
+FROM EMP
+WHERE EMPNO between 7400 AND 7600;
+
+select ENAME, JOB
+FROM EMP;
+
+select E.ENAME, (select E.ENAME FROM EMP E WHERE E.MGR IN (E.EMPNO))'팀장이름'
+FROM EMP E;
+
+select E.ENAME
+FROM EMP E
+WHERE E.SAL > (select E.SAL FROM EMP E WHERE E.ENAME='SCOTT');
+
+select DEPTNO
+FROM EMP
+WHERE ENAME='SCOTT';
+
+select DEPTNO
+FROM DEPT
+WHERE LOC='DALLAS';
 

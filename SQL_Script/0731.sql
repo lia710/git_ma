@@ -108,15 +108,13 @@ where (Customer.custid=Orders.custid) and
 (Book.bookid=Orders.bookid) and
 (Book.publisher in ('굿스포츠','대한미디어','나무수'));
 
-select Customer.name from Customer,Book,Orders
-where (Customer.custid=Orders.custid) and 
-(Book.bookid=Orders.bookid) and 
-(Customer.name='박지성')
-union
-select Customer.name from Customer,Book,Orders
-where (Customer.custid=Orders.custid) and 
-(Book.bookid=Orders.bookid) and
-(Book.publisher in ('굿스포츠','대한미디어','나무수'));
+select C.name,B.publisher from Customer C,Book B,Orders O
+where (C.custid=O.custid) and 
+(B.bookid=O.bookid) and
+(B.publisher in (select B.publisher from Customer C,Book B,Orders O
+where (C.custid=O.custid) and 
+(B.bookid=O.bookid) and
+C.name='박지성'));
 
 select Customer.name, Book.publisher 
 from Customer,Book,Orders
