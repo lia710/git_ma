@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <div class="md:container md:mx-auto  bg-blue-500 hover:bg-blue-700 cursor-pointer">
+        <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam earum quo natus neque tempora. Tempora, officia? Vel omnis illo culpa odit explicabo. Consequuntur, similique. Reprehenderit odio corporis beatae ad autem.</p>
+    </div>
+        <h1 class="text-9xl font-bold text-clifford lg:text-center">
+    Hello world!
+  </h1>
+  <div class="flex text-5xl my-3 mx-3 gap-3">
+    <div class="flex bg-blue-500 w-1/4">01</div>
+    <div class="flex-1 bg-yellow-500">02</div>
+    <div class="flex bg-red-300 w-1/4">03</div>
+
+  </div>
+  <div>
+    <div>
+        <input type="checkbox" class="checked:bg-blue-500...">
+        <input class="border border-green-500 valid:border-green-500">
+    </div>
+    <div class="flex items-center space-x-6">
+        <div class="shrink-0">
+          <img class="h-16 w-16 object-cover rounded-full" src="../10/images/ccc.jpg" alt="cute cat" />
+        </div>
+        <label class="block">
+          <span class="sr-only">Choose profile photo</span>
+          <input type="file" class="block w-full text-sm text-slate-500
+            file:mr-4 file:py-2 file:px-4
+            file:rounded-full file:border-0
+            file:text-sm file:font-semibold
+            file:bg-violet-50 file:text-violet-700
+            hover:file:bg-violet-100
+          "/>
+        </label>
+    </div>
+  </div>
+</body>
+</html>
