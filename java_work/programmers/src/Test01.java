@@ -1,7 +1,11 @@
 public class Test01 {
-    public int solution(int n, int t) {
-        int answer = 0;
-        return answer;
+    class Solution {
+        public int solution(int number, int n, int m) {
+            if(){
 
+            }
+            int answer = 0;
+            return answer;
+        }
     }
 }
