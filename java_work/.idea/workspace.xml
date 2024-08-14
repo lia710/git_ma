@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af230fa3-7432-4ed4-82ed-5292d373ac4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/DBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Ex03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Ex04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex23/src/main/java/org/example/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/src/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/src/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/AA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/BB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/BoxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/DBMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/DBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex24/src/main/java/org/example/SteelBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex23/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex23/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Work/java_work",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/java_work&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
