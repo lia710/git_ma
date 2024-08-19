@@ -27,7 +27,7 @@ public class DBRepository {
         try {
             // DB 연결
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://192.168.0.192:3306/lhj",
+                    "jdbc:mysql://localhost:3307/lhj",
                     "root",
                     "1234");
             // sql 생성
@@ -62,7 +62,7 @@ public class DBRepository {
         try {
             // DB 연결
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://192.168.0.192:3306/lhj",
+                    "jdbc:mysql://localhost:3307/lhj",
                     "root",
                     "1234");
             // sql 생성
@@ -98,7 +98,7 @@ public class DBRepository {
         try {
             // DB 연결
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://192.168.0.192:3306/lhj",
+                    "jdbc:mysql://localhost:3307/lhj",
                     "root",
                     "1234");
             // sql 생성
@@ -139,7 +139,7 @@ public class DBRepository {
         try {
             // DB 연결
             conn = DriverManager.getConnection(
-                    "jdbc:mysql://192.168.0.192:3306/lhj",
+                    "jdbc:mysql://localhost:3307/lhj",
                     "root",
                     "1234");
             // sql 생성
